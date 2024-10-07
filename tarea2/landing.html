@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/video.css">
+    <title>Proyectos</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="video-container">
+            <video class="video" autoplay muted loop>
+                <!-- Ruta del video -->
+                <source src="video/Cosmos Hotel.mp4" type="video/mp4">
+            </video>
+            <div class="shadow"></div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-wrapper proyectos">
+
+            <h2>Proyectos</h2>
+
+            <button type="submit" id="btn-sitio">Sitio Web</button>
+            <div class="pt-4"></div>
+            <button type="submit" id="btn-aplicacion">Aplicación Web</button>
+
+            <!-- Animación -->
+            <div class="pt-5" style="width: 300px; height: 300px;">
+                <div class="animacion2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/landing.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <!-- libreria SWEETALERT-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- interactividad Lottie JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    <!-- libreria Lottie JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+    <script>
+        const anima = document.querySelector(".animacion2");
+
+        // Carga la animación utilizando bodymovin
+        const animation = bodymovin.loadAnimation({
+            container: anima,
+            path: "https://lottie.host/13c8bfa3-9d6e-4f3a-a6f1-989f92ee10a3/KFYjS2d4i7.json",
+            renderer: "svg",
+            loop: false,
+            autoplay: true,
+            name: "animacion2"
+        });
+    </script>
+</body>
+
+</html>
