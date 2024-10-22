@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.banner {
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+.car-image {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+}
+
+.color-picker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+    border: 2px solid #ccc;
+}
+
+.color-box.active {
+    border: 3px solid #3ee288;
+}
+
+.color-name h3 {
+    font-weight: normal;
+}

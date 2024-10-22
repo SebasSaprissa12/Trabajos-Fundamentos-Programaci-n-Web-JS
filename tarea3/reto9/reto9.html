@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto #9</title>
+    <link rel="stylesheet" href="css/reto9.css">
+    <link rel="icon" href="../favicon.ico">
+</head>
+
+
+<body>
+
+    <header>
+        <div class="text-center pt-3">
+            <button class="indice">
+                <a href="../index/index.html" class="text-white">Índice</a>
+            </button>
+        </div>
+
+        <h2 class="text-center titulo4">Reto #9</h2>
+    </header>
+
+    <!-- Contenedor de Método de Pago -->
+    <div class="container">
+        <h2>Centro de Pago</h2>
+        <h3>Seleccione su método de pago</h3>
+        <form id="formPago">
+            <label>
+                <input type="radio" name="metodoPago" value="Visa"> Visa
+            </label><br>
+            <label>
+                <input type="radio" name="metodoPago" value="MasterCard"> MasterCard
+            </label><br>
+            <label>
+                <input type="radio" name="metodoPago" value="American Express"> American Express
+            </label><br>
+            <h3>Términos y Condiciones</h3>
+            <label>
+                <input type="checkbox" id="terminos"> Acepto los términos y condiciones
+            </label><br>
+            <button type="button" onclick="procesarPago()">Procesar Pago</button>
+        </form>
+        <h3 id="resultadoPago"></h3>
+    </div>
+
+    <!-- Contenedor de Cursos -->
+    <div class="container">
+        <h2>E-LearnSpace</h2>
+        <h3>Seleccione un curso:</h3>
+        <form id="formCurso">
+            <label>
+                <input type="radio" name="curso" value="JavaScript"> JavaScript
+            </label><br>
+            <label>
+                <input type="radio" name="curso" value="Python"> Python
+            </label><br>
+            <label>
+                <input type="radio" name="curso" value="HTML & CSS"> HTML & CSS
+            </label><br>
+            <h3>Seleccione la opción de su interés:</h3>
+            <label>
+                <input type="checkbox" value="Avanzado" class="opcion"> Avanzado
+            </label><br>
+            <label>
+                <input type="checkbox" value="Full Stack" class="opcion"> Full Stack
+            </label><br>
+            <label>
+                <input type="checkbox" value="Técnico" class="opcion"> Técnico
+            </label><br>
+            <button type="button" onclick="mostrarResultado()">Mostrar resultado</button>
+        </form>
+        <h3 id="resultadoCurso"></h3>
+    </div>
+
+    <footer class="container-fluid2 fondo">
+        <h2 class="text-center blanco">Derechos Reservados</h2>
+        <h2 class="text-center pt-2 blanco">Sebastián Saprissa 2024</h2>
+    </footer>
+
+    <script src="js/reto9.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>

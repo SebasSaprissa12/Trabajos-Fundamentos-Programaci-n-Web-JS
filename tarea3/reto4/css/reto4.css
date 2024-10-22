@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+
+
+header {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+
+main {
+    padding: 2rem 0;
+}
+
+
+.container {
+    max-width: 960px;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+
+.form-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#btn-clean {
+    margin-top: 0.5rem;
+}
+
+
+#output-img {
+    max-width: 100%;
+}
+
+#output-txt {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #666;
+}

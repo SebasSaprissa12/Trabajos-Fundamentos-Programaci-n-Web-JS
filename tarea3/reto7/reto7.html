@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto #7</title>
+  <link rel="stylesheet" href="css/reto7.css">
+  <link rel="stylesheet" href="../general/general.css" />
+  <link rel="icon" href="../favicon.ico">
+</head>
+
+
+
+<body>
+
+  <header>
+    <div class="text-center pt-3">
+      <button class="indice">
+        <a href="../index/index.html" class="text-white">Índice</a>
+      </button>
+    </div>
+  
+    <h2 class="text-center titulo4">Reto #7</h2>
+  </header>
+
+  <h1>Haga "click" en cada personaje</h1>
+
+  <div class="main-container">
+    <!-- Imagen con mapa interactivo -->
+    <div class="container">
+      <img src="img/Chainsaw Man.jpg" usemap="#mapa" alt="Personajes de Chainsaw Man">
+
+      <map name="mapa">
+        <area shape="circle" coords="125,125,100" href="#" alt="Denji" onclick="mostrarDescripcion('denji')">
+        <area shape="circle" coords="375,125,100" href="#" alt="Power" onclick="mostrarDescripcion('power')">
+        <area shape="circle" coords="625,125,100" href="#" alt="Kobeni Higashiyawa "
+          onclick="mostrarDescripcion('kobeni')">
+        <area shape="circle" coords="125,375,100" href="#" alt="Quanxi" onclick="mostrarDescripcion('quan')">
+        <area shape="circle" coords="375,375,100" href="#" alt="Makima" onclick="mostrarDescripcion('makima')">
+        <area shape="circle" coords="625,375,100" href="#" alt="Reze" onclick="mostrarDescripcion('reze')">
+      </map>
+    </div>
+
+    <!-- Lista de personajes siempre visible -->
+    <div class="info-container">
+      <h2>Lista de Personajes</h2>
+      <ul id="lista-personajes">
+        <li id="denji" onclick="mostrarDescripcion('denji')">Denji</li>
+        <li id="power" onclick="mostrarDescripcion('power')">Power</li>
+        <li id="kobeni" onclick="mostrarDescripcion('kobeni')">Kobeni Higashiyawa</li>
+        <li id="quan" onclick="mostrarDescripcion('quan')">Quanxi</li>
+        <li id="makima" onclick="mostrarDescripcion('makima')">Makima</li>
+        <li id="reze" onclick="mostrarDescripcion('reze')">Reze</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="container-fluid2 fondo">
+    <h2 class="text-center blanco">Derechos Reservados</h2>
+    <h2 class="text-center pt-2 blanco">Sebastián Saprissa 2024</h2>
+  </footer>
+
+  <script src="js/reto7.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body {
+    background: #000;
+  }
+  
+  p {
+    font-size: 22px;
+  }
+  
+  .tp {
+    font-size: 42px;
+    color: white;
+    padding-top: 50px;
+  }
+  
+  .container-fluid {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .fondo{
+    background-color: rgb(14, 179, 110);
+  }
+  
+  .fondo1{
+    background-color: rgb(6, 26, 206);
+  }
