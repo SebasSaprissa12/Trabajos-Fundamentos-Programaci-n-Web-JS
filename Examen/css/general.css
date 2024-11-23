@@ -193,7 +193,7 @@ footer .copyright {
 
 /* Galaxy Fold en adelante */
 
-@media (min-width: 280px) and (max-width: 359px){
+@media (min-width: 240px) and (max-width: 359px){
 
     .banner-section2{
         height: 290vh;
