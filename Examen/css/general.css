@@ -313,6 +313,10 @@ footer .copyright {
 /*Tabletas y celulares grandes*/
 @media (min-width: 415px){
 
+    .banner-section2{
+        height: 290vh;
+    }
+
     .caja{
         height: 450px;
         padding-top: 7rem !important;
