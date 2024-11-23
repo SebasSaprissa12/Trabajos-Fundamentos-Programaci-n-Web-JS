@@ -357,6 +357,10 @@ footer .copyright {
 /*Tabletas y celulares grandes*/
 @media (min-width: 576px) and (max-width: 767px){
 
+    .banner-section2{
+       height: calc(249vh);
+    }
+
     .bannertxt{
         padding-top: 1rem !important;
         font-size: 17px;
@@ -393,6 +397,10 @@ footer .copyright {
 /*Para computadoras de escritorio */
 @media (min-width: 768px) and (max-width: 991px){
 
+    .banner-section2{
+       height: calc(249vh);
+    }
+
     .fondo1{
         top: 138px;
     }
@@ -401,6 +409,10 @@ footer .copyright {
 
 /*Para computadoras de escritorio */
 @media (min-width: 992px) and (max-width: 1200px){
+
+    .banner-section2{
+       height: calc(249vh);
+    }
 
     .caja{
         height: 445px;
