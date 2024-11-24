@@ -358,7 +358,7 @@ footer .copyright {
 @media (min-width: 576px) and (max-width: 767px){
 
     .banner-section2{
-        height: calc(275vh);
+        height: calc(265vh);
      }
 
     .bannertxt{
@@ -398,7 +398,7 @@ footer .copyright {
 @media (min-width: 768px) and (max-width: 991px){
 
     .banner-section2{
-        height: calc(275vh);
+        height: calc(265vh);
      }
 
     .fondo1{
@@ -411,7 +411,7 @@ footer .copyright {
 @media (min-width: 992px) and (max-width: 1200px){
 
     .banner-section2{
-        height: calc(275vh);
+        height: calc(265vh);
      }
 
     .caja{
