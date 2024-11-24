@@ -1,0 +1,58 @@
+/* Componente Model Viewer */
+model-viewer {
+  width: 850px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../imagenes/fondo.png");
+}
+
+/********************* MEDIAS QUERYS ******************************/
+
+/* Galaxy Fold en adelante */
+@media (min-width: 280px) and (max-width: 359px) {
+  model-viewer {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* Dispositivos pequeños */
+@media (min-width: 360px) and (max-width: 414px) {
+  model-viewer {
+    width: 310px;
+    height: 320px;
+  }
+}
+
+/* Tabletas y celulares grandes */
+@media (min-width: 415px) {
+  model-viewer {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* Tabletas y celulares grandes */
+@media (min-width: 576px) and (max-width: 767px) {
+  model-viewer {
+    width: 550px;
+    height: 500px;
+  }
+}
+
+/* Para computadoras de escritorio */
+@media (min-width: 768px) and (max-width: 991px) {
+  model-viewer {
+    width: 650px;
+    height: 600px;
+  }
+}
+
+/* Para computadoras de escritorio */
+@media (min-width: 992px) and (max-width: 1200px) {
+  model-viewer {
+    width: 850px;
+    height: 600px;
+  }
+}
