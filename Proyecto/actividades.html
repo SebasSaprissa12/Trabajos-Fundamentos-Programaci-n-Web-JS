@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/inicio.css" />
+    <link rel="stylesheet" href="css/objeto.css" />
+    <link rel="stylesheet" href="css/bannerMenu.css" />
+    <link rel="stylesheet" href="css/actividades.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/switch.css" />
+    <link rel="stylesheet" href="css/imagehover.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script
+      src="https://kit.fontawesome.com/6df3345e67.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <title>Cosmos Mountains | Actividades</title>
+  </head>
+
+  <body id="inicio">
+    <!-- Barra de navegacion -->
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div>C</div>
+            <span>COSMOS<br />MOUNTAINS</span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="text-white"><a href="inicio.html">Inicio</a></li>
+          <li class="text-white"><a href="inicio.html#t1">Nosotros</a></li>
+
+          <!-- Dropdown de Servicios -->
+          <li class="nav-item dropdown text-white">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Servicios
+            </a>
+            <ul
+              class="dropdown-menu"
+              style="background-color: #64748b"
+              aria-labelledby="navbarDropdown"
+            >
+              <li><a class="dropdown-item" href="inicio.html#t2">Habitaciones</a></li>
+              <li><a class="dropdown-item" href="menu.html">Menú</a></li>
+              <li>
+                <a class="dropdown-item" href="actividades.html">Actividades</a>
+              </li>
+              <li>
+                <a data-translate="nav6" class="dropdown-item" href="Aplicacion Web/reservacion.html">Reservas</a>
+            </li>
+            </ul>
+          </li>
+
+          <li class="text-white"><a href="contacto.html">Contacto</a></li>
+          <li class="nav__item">
+            <a>
+              <span class="es text-white">Es</span>
+              <input type="checkbox" value="EN" class="check" />
+              <span class="en">IN</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Header de la pagina -->
+    <header>
+      <div
+        class="carousel slide espacio banner-section fondoM"
+        id="carouselExampleIndicators"
+        data-bs-ride="carousel"
+      >
+        <!-- Indicadores del carrusel -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <!-- Imágenes del carrusel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="imagenes/actividad1.jpg"
+              width="100%"
+              class="d-block w-100"
+              alt="Foto 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imagenes/actividad2.jpg"
+              class="d-block w-100"
+              alt="Foto 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imagenes/actividad3.jpg"
+              class="d-block w-100"
+              alt="Foto 3"
+            />
+          </div>
+        </div>
+
+        <!-- Controles de navegación -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+
+        <!-- Título y contenido superpuesto -->
+        <div class="content">
+          <h1>Actividades</h1>
+        </div>
+        <div class="content2">
+          <br />
+          <i
+            class="far fa wow animate__animated animate__pulse animate__delay-300ms animate__infinite infinite"
+          >
+            <a class="" role="button" href="#t1">
+              <i class="fa fa-arrow-circle-down fa-5x text-white"></i>
+            </a>
+          </i>
+        </div>
+      </div>
+    </header>
+
+    <!--inicio seccion busqueda texto con galeria y objeto 3D-->
+    <section id="t1" class="container-fluid galeria pt-5 pb-5">
+      <div class="container pt-5">
+        <div class="row pt-5">
+          <div class="col-12 text-center">
+            <h1 class="pt-5 titulaje2" style="font-size: 3rem">Actividades</h1>
+            <p class="text-left pt-5">
+              Horarios de las distintas actividades que tenemos para ofrecerte
+            </p>
+          </div>
+        </div>
+
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="input-group">
+                <input
+                  style="border-color: #ffb300"
+                  type="text"
+                  id="searchInput"
+                  class="searchInput inputSearch form-control"
+                  placeholder="Buscar Actividad de interés"
+                />
+                <div class="input-group-append" style="margin-left: 10px">
+                  <button
+                    class="searchInput searchIcon"
+                    type="button"
+                    onclick="searchActivities()"
+                  >
+                    <i class="ri-search-line"></i>
+                  </button>
+                </div>
+              </div>
+              <p id="pResult" class="resultado mt-4 text-center"></p>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="pt-5 text-center titulaje2" style="font-size: 3rem">
+          Kayak
+        </h1>
+        <p class="text-center pt-5">
+          ¡Descubre la aventura definitiva en la montaña con nuestro tour de
+          kayak! Remar en las tranquilas aguas rodeadas de imponentes montañas
+          es una experiencia única y fascinante, perfecta para todos los
+          niveles, desde principiantes hasta expertos. Imagínate deslizándote
+          sobre el agua cristalina, sintiendo la serenidad del entorno mientras
+          exploras rincones ocultos y te conectas profundamente con la
+          naturaleza. Es una actividad ideal para los amantes de la aventura y
+          quienes buscan un momento de paz en un paisaje de ensueño. Sin duda,
+          el kayak es el plan estrella de nuestro hotel, una experiencia que no
+          puedes dejar pasar. ¡Te esperamos para vivir la magia de la montaña
+          desde el agua!
+        </p>
+        <div class="pt-5">
+          <!-- Carga local 3D -->
+          <model-viewer
+            src="asset/kayak.glb"
+            poster=""
+            alt="personaje 30"
+            camera-controls
+            auto-rotate
+          >
+          </model-viewer>
+        </div>
+      </div>
+    </section>
+
+    <!-- scrolltop -->
+    <a
+      data-scroll
+      id="flechabtn"
+      class="goto-top"
+      href="#inicio"
+      title="Ir al inicio"
+      onclick="topFunction()"
+    >
+      <img src="imagenes/flecha.png" class="img-fluid" />
+    </a>
+
+    <!-- Botón WhatsApp -->
+    <div class="">
+      <a
+        href="https://walink.co/2c6485"
+        class="whatsapp"
+        alt="Ícono de WhatsApp"
+        target="blank"
+      >
+        <i class="fab fa-whatsapp" style="color: white"></i>
+      </a>
+    </div>
+
+    <!-- Footer-->
+    <footer class="fondo-footer">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <br />
+            <a class="navbar-brand text-center" href="inicio.html">
+              <img src="imagenes/Logo2.png" class="img-fluid" />
+            </a>
+            <h2 class="texto-footer text-white">Derechos Reservados</h2>
+            <br />
+            <p class="text-center texto-footer text-white">Copyright 2024</p>
+          </div>
+          <div class="pb-3"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="js/actividades.js"></script>
+
+  <script src="js/inicio.js"></script>
+
+  <!-- Requisito de cargar para esconder el botón Scrolltop por medio de Jquery -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- permite cambiar la velocidad y acelaracion usando JS -->
+  <script src="js/smooth-scroll.min.js"></script>
+
+  <!-- controlar el desplazamiento suave -->
+  <script src="js/elastico.js"></script>
+
+  <!-- cargar el archivo JS -->
+
+  <script src="js/wow.min.js"></script>
+
+  <!-- activa los efectos de animacion -->
+  <script>
+    new WOW().init();
+  </script>
+
+  <script>
+    baguetteBox.run(".tz-gallery");
+  </script>
+
+  <!-- libreria desplegables  js -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+  ></script>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- testimonial hojas de estilo  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/inicio.css" />
+    <link rel="stylesheet" href="css/reservacion.css" />
+    <link rel="stylesheet" href="../css/tira.css" />
+    <link rel="stylesheet" href="../css/video.css" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/switch.css" />
+    <link rel="stylesheet" href="../css/imagehover.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="../css/tab.css" />
+    <link rel="stylesheet" href="../css/contador.css" />
+    <link rel="stylesheet" href="../css/testimoniales.css" />
+
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <title>Cosmos Mountains | Inicio</title>
+</head>
+
+<body id="inicio">
+    <!-- Barra de navegacion -->
+    <nav>
+        <div class="nav__bar">
+            <div class="nav__header">
+                <div class="logo nav__logo">
+                    <div>C</div>
+                    <span>COSMOS<br />RESERVATIONS</span>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li class="text-white">
+                    <a data-translate="nav1" href="../inicio.html">Inicio</a>
+                </li>
+                <li class="text-white">
+                    <a data-translate="nav2" href="../inicio.html#t1">Nosotros</a>
+                </li>
+
+                <!-- Dropdown de Servicios -->
+                <li class="nav-item dropdown text-white">
+                    <a class="nav-link dropdown-toggle text-white" href="#" data-translate="nav3" id="navbarDropdown"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #64748b" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a data-translate="nav4" class="dropdown-item" href="../inicio.html#t2">Habitaciones</a>
+                        </li>
+                        <li>
+                            <a data-translate="nav5" class="dropdown-item" href="../menu.html">Menú</a>
+                        </li>
+                        <li>
+                            <a data-translate="nav6" class="dropdown-item" href="../actividades.html">Actividades</a>
+                        </li>
+                        <li>
+                            <a data-translate="nav6" class="dropdown-item" href="#">Reservas</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="text-white">
+                    <a data-translate="nav7" href="../contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item">
+                    <a>
+                        <span data-translate="idioma" class="es text-white">Es</span>
+                        <input type="checkbox" value="EN" id="languageSwitch" onclick="changeLanguage()"
+                            class="check" />
+                        <span data-translate="idioma2" class="en">IN</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header de la pagina -->
+    <header>
+        <div class="video-container espacio banner-section">
+            <video class="video" autoplay muted loop>
+                <!-- Ruta del video -->
+                <source src="../video/Cosmos Hotel.mp4" type="video/mp4" />
+            </video>
+            <div class="shadow"></div>
+            <div class="content">
+                <h1 data-translate="titulo">Reservaciones</h1>
+            </div>
+            <div class="content2">
+                <br />
+                <i class="far fa wow animate__animated animate__pulse animate__delay-300ms animate__infinite infinite">
+                    <a class="" role="button" href="#t1"><i class="fa fa-arrow-circle-down fa-5x text-white"></i></a>
+                </i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seccion Nosotros -->
+    <div id="t1"></div>
+    <section class="banner-section3 pt-5 text-center">
+        <h2 class="titulaje2 text-center">Reservas</h2>
+        <p class="text-center">
+            Organiza tu estancia perfecta en Cosmos Reservations. Completa tu reserva en unos sencillos pasos o explora
+            nuestras opciones de alojamiento. Si tienes alguna duda, estamos aquí para ayudarte. ¡Haz clic en el botón
+            de abajo para comenzar!
+        </p>
+        <img src="../imagenes/reserva.png" class="pt-3 img-fluid" alt="">
+    </section>
+
+    <section class="reservacion banner-section2" style="height: calc(140vh); padding-bottom: 7rem !important;" id="reservacion">
+
+        <form action="" method="post">
+            <h3 style="color: white;">Haz tu reservación</h3>
+            <div class="flex">
+                <div class="box">
+                    <p>Fecha de Entrada <span>*</span></p>
+                    <input type="date" name="check_in" class="input" />
+                </div>
+                <div class="box">
+                    <p>Fecha de Salida <span>*</span></p>
+                    <input type="date" name="check_out" class="input" />
+                </div>
+                <div class="box">
+                    <p>adultos <span>*</span></p>
+                    <select name="adults" class="input">
+                        <option value="1">1 adulto</option>
+                        <option value="2">2 adultos</option>
+                        <option value="3">3 adultos</option>
+                        <option value="4">4 adultos</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Tipo de habitación <span>*</span></p>
+                    <select name="room_type" class="input">
+                        <option value="150">Básica Familiar ($150 por noche)</option>
+                        <option value="180">Premium Familiar ($180 por noche)</option>
+                        <option value="330">Clásica de Lujo ($330 por noche)</option>
+                        <option value="375">Superior de Lujo ($375 por noche)</option>
+                        <option value="525">Penthouse ($525 por noche)</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>niños <span>*</span></p>
+                    <select name="childs" class="input">
+                        <option value="-">Sin niños</option>
+                        <option value="1">1 niño</option>
+                        <option value="2">2 niños</option>
+                        <option value="3">3 niños</option>
+                        <option value="4">4 niños</option>
+                        <option value="5">5 niños</option>
+                        <option value="6">6 childs</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <p>Habitaciones <span>*</span></p>
+                    <select name="rooms" class="input">
+                        <option value="1">1 Habitación</option>
+                        <option value="2">2 Habitaciones</option>
+                        <option value="3">3 Habitaciones</option>
+                        <option value="4">4 Habitaciones</option>
+                        <option value="5">5 Habitaciones</option>
+                        <option value="6">6 Habitaciones</option>
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="verificar disponibilidad" name="check" class="btn" />
+            <div class="text-center pt-3">
+                <!-- Contenedor del botón de PayPal -->
+                <div class="text-center" id="paypal-button-container"></div>
+            </div>
+        </form>
+
+    </section>
+
+    <!-- scrolltop -->
+    <a data-scroll id="flechabtn" class="goto-top" href="#inicio" title="Ir al inicio" onclick="topFunction()">
+        <img src="../imagenes/flecha.png" class="img-fluid" />
+    </a>
+
+    <!-- Botón WhatsApp -->
+    <div class="">
+        <a href="https://walink.co/2c6485" class="whatsapp" alt="Ícono de WhatsApp" target="blank">
+            <i class="fab fa-whatsapp" style="color: white"></i>
+        </a>
+    </div>
+
+    <!-- Footer-->
+    <footer class="fondo-footer pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <br />
+                    <a class="navbar-brand text-center" href="../inicio.html">
+                        <img src="../imagenes/Logo2.png" class="img-fluid" />
+                    </a>
+                    <h2 class="texto-footer text-white" data-translate="derechos">
+                        Derechos Reservados
+                    </h2>
+                    <br />
+                    <p class="text-center texto-footer text-white" data-translate="copyright">
+                        Copyright 2024
+                    </p>
+                </div>
+                <div class="pb-3"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="../js/inicio.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script src="../js/smooth-scroll.min.js"></script>
+
+<script src="../js/elastico.js"></script>
+
+<script src="../js/tira.js"></script>
+
+<script src="../js/wow.min.js"></script>
+
+<script src="js/reservacion.js"></script>
+
+<script>
+    new WOW().init();
+</script>
+
+<script>
+    var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const dropdownItems = document.querySelectorAll(".dropdown-item");
+        dropdownItems.forEach((item) => {
+            item.addEventListener("click", function (e) {
+                e.stopPropagation(); // Evita que se cierre el menú hamburguesa
+            });
+        });
+    });
+</script>
+
+<!-- PayPal SDK script-->
+
+<script
+    src="https://sandbox.paypal.com/sdk/js?client-id=Afgf8HEh8kHwwYlAPTQQrTkS9XyYrf0jjhmxYEleWx0_7IKQDtyAbpjR3KjLXcd0TEa4ElKYPyu9FNMh&components=buttons"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+
+</html>

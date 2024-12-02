@@ -1,0 +1,94 @@
+:root {
+  --placeholders: #000000;
+  --bordes: 0.1rem solid rgba(255, 85, 85, 0.3);
+  --titulos-reservacion: #ffa600;
+  --pagina: #ffffff;
+}
+
+body {
+  background-color: var(--pagina);
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+
+  border: none;
+}
+
+.reservacion form {
+  border: var(--bordes);
+  padding: 2rem;
+}
+
+.reservacion form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.reservacion form h3 {
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  background-color: var(--titulos-reservacion);
+  color: var(--pagina);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.reservacion form .flex .box {
+  flex: 1 1 40rem;
+}
+
+.reservacion form .flex .box p {
+  font-size: 1.8rem;
+  color: var(--titulos-reservacion);
+}
+
+.reservacion form .flex .box .input {
+  background: var(--pagina);
+  color: var(--placeholders);
+  font-size: 1.8rem;
+  width: 100%;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  border-bottom: var(--bordes);
+}
+
+.reservacion
+  form
+  .flex
+  .box
+  input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0);
+}
+
+.btn {
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  margin-top: 1rem;
+  background-color: var(--pagina);
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  border: var(--bordes);
+  font-size: 1.8rem;
+  color: var(--titulos-reservacion);
+}
+
+.btn:hover {
+  border-radius: 5rem;
+  background-color: var(--titulos-reservacion);
+  color: var(--pagina);
+}
