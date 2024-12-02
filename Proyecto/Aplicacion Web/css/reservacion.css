@@ -88,7 +88,6 @@ section {
 }
 
 .btn:hover {
-  border-radius: 5rem;
   background-color: var(--titulos-reservacion);
   color: var(--pagina);
 }
